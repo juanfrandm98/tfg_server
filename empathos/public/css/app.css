@@ -1,0 +1,249 @@
+/******************************************************************************/
+/*                       GENERAL                                              */
+/******************************************************************************/
+
+.button {
+    background-color: darkred;
+    min-width: 200px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 32px;
+}
+
+.button:hover {
+    background-color: indianred;
+}
+
+.content {
+    text-align: center;
+    margin-top: 175px;
+    width: 100%;
+    float: left;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+small_td {
+    font-size: 15px;
+}
+
+.small_th {
+    font-size: 12px;
+}
+
+.scrollable {
+    max-height: 150px;
+    width: 100px;
+    overflow: auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.alert {
+    margin: 10px;
+}
+
+/******************************************************************************/
+/*                       HEADER                                               */
+/******************************************************************************/
+
+.header {
+    background-color: darkred;
+    position: absolute;
+    width: 100%;
+    float: left;
+}
+
+.header-icon {
+    margin: 10px 20px;
+    max-height: 80px;
+    float: left;
+}
+
+.menu-header {
+    float: left;
+    margin: 0.9%;
+}
+
+.menu-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.menu-header li:hover {
+    background-color: #444444;
+}
+
+.menu-header li {
+    float: left;
+}
+
+.menu-header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/******************************************************************************/
+/*                       LOGIN                                                */
+/******************************************************************************/
+.login_background {
+    height: 100%;
+    position: relative;
+    background-color: indianred;
+}
+
+.login {
+    background-color: white;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.login h1 {
+    color: darkred;
+    font-family: 'Courier New';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.login h2 {
+    color: darkred;
+    font-family: 'Courier New';
+    font-size: 30px;
+}
+
+.login_form {
+    max-width: min-content;
+    min-width: 500px;
+    text-align: center;
+}
+
+.login_form p {
+    font-weight: bold;
+}
+
+/******************************************************************************/
+/*                       MENU PRINCIPAL                                       */
+/******************************************************************************/
+#menu_principal {
+    margin: auto;
+    width: 50%;
+}
+
+#menu_principal h2 {
+    margin: auto;
+}
+
+#opciones_menu_principal {
+    width: 60%;
+    margin: auto;
+}
+
+#opciones_menu_principal a {
+    background-color: indianred;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#opciones_menu_principal a:hover {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+}
+
+/******************************************************************************/
+/*                       TEST LIST                                            */
+/******************************************************************************/
+
+.test_list_zone {
+    width: 80%;
+    margin: auto;
+}
+
+.test_list_button {
+    float: left;
+    margin: 20px auto;
+}
+
+.test_list_table {
+    float: left;
+    margin: 20px auto;
+}
+
+/******************************************************************************/
+/*                       TEST EDIT                                            */
+/******************************************************************************/
+
+.edit_test_zone {
+    margin: auto;
+    width: 60%;
+}
+
+.edit_test_form {
+    margin: 30px 10px 20px;
+}
+
+.edit_test_form > .button {
+    margin-top: 20px;
+}
+
+.edit_label {
+    float: left;
+    color: darkred;
+    font-weight: bold;
+}
+
+.small_text_input {
+    width: 100%;
+    height: 20px;
+}
+
+.big_text_input {
+    width: 100%;
+    height: 50px;
+}
+
+/******************************************************************************/
+/*                       TEST LIST                                            */
+/******************************************************************************/
+
+.results_zone {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 30px;
+    width: 95%;
+    max-width: 95%;
+}
